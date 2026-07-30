@@ -1,0 +1,22 @@
+#Gender vs Churn
+sns.countplot(
+    data=df,
+    x="Gender",
+    hue="Exited"
+)
+
+
+#Age vs Churn
+sns.boxplot(
+    data=df,
+    x="Exited",
+    y="Age"
+)
+
+
+#Balance vs Churn
+sns.boxplot(
+    data=df,
+    x="Exited",
+    y="Balance"
+)
