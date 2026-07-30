@@ -1,0 +1,18 @@
+#Gender distribution code
+plt.figure(figsize=(6,5))
+
+sns.countplot(data=df,x="Gender")
+
+plt.title("Gender Distribution")
+
+plt.show()
+
+
+# Geography distribution code
+plt.figure(figsize=(7,5))
+
+sns.countplot(data=df,x="Geography")
+
+plt.title("Customer Distribution by Geography")
+
+plt.show()
