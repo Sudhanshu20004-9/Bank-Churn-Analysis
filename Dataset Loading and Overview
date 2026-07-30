@@ -1,0 +1,16 @@
+# Loading the dataset
+df = pd.read_csv("Churn_Modelling.csv")
+
+df.head()
+
+# Dataset Overview 
+print("Shape:", df.shape)
+
+print("\nColumns")
+print(df.columns)
+
+print("\nInformation")
+df.info()
+
+print("\nStatistics")
+display(df.describe())
